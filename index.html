@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido - Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">PORTFOLIO - TOMÁS SPAT</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href='#contacto'>Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="hero">
+            <div class="hero-content">
+                <div class="left">
+                    <h1>Hola, mi nombre es</h1>
+                    <h1>Tomás Spat</h1>
+                    <p>Soy estudiante de la carrera de Ingeniería en Sistemas en la Universidad Tecnológica Nacional,
+                        Facultad Regional Villa María. Actualmente, me encuentro cursando el tercer año. Además,
+                        incremento mis conocimientos de manera autónoma a través de cursos, videos, lecturas y más. </p>
+                    <a href="#contacto" class="btn">Contáctame</a>
+                </div>
+                <div class="right">
+                    <img src="static/big-data.png" width="600px" />
+                </div>
+            </div>
+        </div>
+        <div id="primera">
+            <div class="center">
+                <div class="content">
+                    <div class="row vert-pad">
+                        <div class="left padded">
+                            <h1>Desarrollo aplicaciones y sitios web</h1>
+                            <p>Constantemente me encuentro aprendiendo nuevas tecnologías y desarrollando aplicaciones
+                                por placer. Esta web la construí desde cero...</p>
+                        </div>
+                        <div class="right padded">
+                            <h1>¡Podemos conversar lo que quieras!</h1>
+                            <p>Solo envíame un correo <a class="orange" href="#contacto">presionando aquí.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="segunda">
+            <div class="center padded white-bg">
+                <div class="content padded">
+                    <div class="padded">
+                        <h1>Proyectos y prácticas...</h1>
+                    </div>
+                    <div class="row">
+                        <div class="card third">
+                            <h3>Mensajería "MailerApp"</h3>
+                            <p>Es una aplicación que envía correos utilizando la API de Sendgrid.</p>
+                            <a class="orange" target="_blank">En proceso...</a>
+                        </div>
+                        <div class="card third">
+                            <h3>Gestor de clientes - App</h3>
+                            <p>Una aplicación de TKinter programada en Python para gestionar mis clientes.</p>
+                            <a class="orange" target="_blank" href="https://github.com/TomiSpat/Gestor-de-cleintes">Link
+                                aquí</a>
+                        </div>
+                        <div class="card third">
+                            <h3>Gestor de tareas - App</h3>
+                            <p>Una aplicación de TKinter programada en Python para gestionar tareas.</p>
+                            <a class="orange" target="_blank" href="https://github.com/TomiSpat/Gestor-de-tareas">Link
+                                aquí</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tercera">
+            <div class="center padded">
+                <div class="content">
+                    <div class="row vert-pad">
+                        <div class="left padded">
+                            <h1>¡Contáctame! </h1>
+                            <p>Si tienes alguna pregunta, idea o simplemente quieres ponerte en contacto, no dudes en
+                                enviarme un mensaje a través del formulario. Estoy aquí para ayudarte y me comprometo a
+                                responder lo más rápido posible. </p>
+                        </div>
+                        <div id="contacto" class="right padded">
+                            <form class="contact-form" method="post" action="https://formspree.io/f/xkgwbrpq">
+                                <input class="input-comun" name="name" placeholder="Nombre" required />
+                                <input class="input-comun" name="email" placeholder="Correo" required type="email" />
+                                <textarea class="input-comun" placeholder="Mensaje" name="message" required minlength="10"></textarea>
+                                <button class="btnEnviar full-widht input-comun" type="submit">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="center full-widht">
+            <div class="row">
+                <h2>Contáctame</h2>
+            </div>
+        </div>
+        <div class="center full-widht">
+            <div class="row">
+                <p>También puedes seguirme en mis redes sociales.</p>
+            </div>
+        </div>
+        <div class="center full-widht social-links">
+            <div class="row">
+                <a target="_blank" href="https://www.linkedin.com/in/tomas-spat-03960924b/"><img class='social'
+                        width="30" src="static/li.png" /></a>
+                <a target="_blank" href="https://twitter.com/SpatTomi"><img class='social' width="30"
+                        src="static/tw.png" /></a>
+                <a target="_blank" href="https://www.facebook.com/tomas.spat"><img class='social' width="30"
+                        src="static/fc.png" /></a>
+            </div>
+        </div>
+        <div class="made-with">
+            <div class="row">
+                <p>Hecho por Spat Tomás</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
